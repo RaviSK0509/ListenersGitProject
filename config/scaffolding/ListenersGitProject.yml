@@ -7,11 +7,22 @@ packages:
   gitUrl: https://github.com/RaviSK0509
   gitUsername: RaviSK0509
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
+- serviceName: project.listenersgit.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:soapGitbasic
+  packages:
+  - name: ListenersGitProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.listenersgit.integrations:pushEventGit
   packages:
   - name: ListenersGitProject
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.flow:tracePipeline
   packages:
   - name: WmPublic
