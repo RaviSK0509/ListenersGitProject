@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/RaviSK0509
   gitUsername: RaviSK0509
   gitBranch: main
+services:
+- serviceName: project.listenersgit.integrations:pushEventGit
+  packages:
+  - name: ListenersGitProject
+    version: "1.0"
+- serviceName: pub.flow:tracePipeline
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1328
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
