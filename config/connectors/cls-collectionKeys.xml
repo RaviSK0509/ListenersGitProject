@@ -3,6 +3,7 @@
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="project.listenersgit.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:createSFObject" connectorServiceName="project.listenersgit.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:createSFObject"/>
+            <keyDetails collectionKey="project.listenersgit.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:deleteSFObject" connectorServiceName="project.listenersgit.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:deleteSFObject"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
